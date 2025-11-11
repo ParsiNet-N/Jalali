@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>استاد محمد جلالی - مربی رسمی شطرنج</title>
+    <!-- استفاده از Tailwind CSS برای طراحی مدرن -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* استفاده از فونت استاندارد و خوانا - Tailwind به طور خودکار فونت مناسب را اعمال می‌کند */
+        body {
+            font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- هدر و منوی ناوبری -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-gray-900">
+                <a href="#">استاد محمد جلالی</a>
+            </div>
+            <ul class="flex space-x-6 space-x-reverse">
+                <li><a href="#home" class="text-gray-600 hover:text-blue-600 font-medium">خانه</a></li>
+                <li><a href="#about" class="text-gray-600 hover:text-blue-600 font-medium">درباره استاد</a></li>
+                <li><a href="#classes" class="text-gray-600 hover:text-blue-600 font-medium">کلاس‌ها</a></li>
+                <li><a href="#contact" class="text-gray-600 hover:text-blue-600 font-medium">تماس</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- بخش اصلی (Hero) -->
+    <section id="home" class="bg-gray-800 text-white pt-20 pb-28">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-5xl font-extrabold mb-4">آموزش تخصصی شطرنج</h1>
+            <p class="text-xl text-gray-300 mb-8">با مربی و داور رسمی فدراسیون شطرنج جمهوری اسلامی ایران</p>
+            <a href="#classes" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition duration-300">
+                مشاهده کلاس‌ها و ثبت‌نام
+            </a>
+        </div>
+    </section>
+
+    <!-- بخش درباره استاد -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">درباره استاد جلالی</h2>
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <!-- ستون متن -->
+                <div class="md:w-1/2">
+                    <h3 class="text-3xl font-semibold mb-6">سوابق و افتخارات</h3>
+                    <ul class="space-y-4 text-lg text-gray-700 list-disc list-inside">
+                        <li>معلم رسمی آموزش و پرورش با **۲۱ سال سابقه** تدریس</li>
+                        <li>**مربی و داور رسمی** فدراسیون شطرنج جمهوری اسلامی ایران</li>
+                        <li>**۱۵ سال سابقه مربیگری** درخشان در سطح منطقه</li>
+                        <li>**رئیس انجمن شطرنج** اداره آموزش و پرورش شهریار</li>
+                    </ul>
+                    <p class="mt-6 text-lg text-gray-800 leading-relaxed">
+                        استاد جلالی با تکیه بر سال‌ها تجربه در سیستم آموزشی رسمی کشور و تخصص در مربیگری حرفه‌ای شطرنج، رویکردی منحصر به فرد در آموزش این ورزش فکری به رده‌های سنی مختلف دارند.
+                    </p>
+                </div>
+                <!-- ستون عکس‌ها -->
+                <div class="md:w-1/2 grid grid-cols-2 gap-4">
+                    <!-- 
+                        تصویر رسمی استاد - لینک مستقیم
+                    -->
+                    <img src="https://uploadkon.ir/uploads/746311_25photo21905513696.jpg" 
+                         alt="عکس رسمی استاد محمد جلالی" 
+                         class="rounded-lg shadow-xl w-full h-auto object-cover">
+                    <!-- 
+                        تصویر استاد در کلاس - لینک مستقیم
+                    -->
+                    <img src="https://uploadkon.ir/uploads/2ab711_25photo21909366916.jpg" 
+                         alt="استاد جلالی در حال تدریس" 
+                         class="rounded-lg shadow-xl w-full h-auto object-cover mt-8">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- بخش کلاس‌ها -->
+    <section id="classes" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">کلاس‌ها و شهریه</h2>
+            <div class="max-w-2xl mx-auto bg-white rounded-lg shadow-2xl overflow-hidden">
+                <div class="bg-blue-600 text-white text-center p-8">
+                    <h3 class="text-3xl font-bold">پکیج آموزش ترمی شطرنج</h3>
+                    <p class="text-lg mt-2">(مبتدی تا پیشرفته)</p>
+                </div>
+                <div class="p-8 md:p-10">
+                    <ul class="space-y-5 text-lg text-gray-700 mb-8">
+                        <li class="flex items-center">
+                            <svg class="w-6 h-6 text-green-500 mr-3 ml-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            **تعداد جلسات:** ۸ جلسه در هر ترم
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-6 h-6 text-green-500 mr-3 ml-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            **برنامه هفتگی:** ۲ روز در هفته
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-6 h-6 text-green-500 mr-3 ml-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            **مدت زمان هر جلسه:** ۹۰ دقیقه (۱ ساعت و نیم)
+                        </li>
+                    </ul>
+                    <div class="text-center">
+                        <div class="text-5xl font-extrabold text-gray-900 mb-2">۷۰۰,۰۰۰ تومان</div>
+                        <div class="text-xl text-gray-500">هزینه کامل هر ترم</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- بخش تماس -->
+    <section id="contact" class="py-20 bg-gray-800 text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-6">تماس و ثبت‌نام</h2>
+            <p class="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+                برای کسب اطلاعات بیشتر، مشاوره و ثبت‌نام در کلاس‌ها، می‌توانید مستقیماً با استاد جلالی تماس بگیرید.
+            </p>
+            <div class="inline-block bg-white text-gray-900 rounded-lg shadow-xl p-6">
+                <div class="text-lg font-medium text-gray-600">شماره تماس استاد جلالی:</div>
+                <a href="tel:09128016560" class="text-4xl font-extrabold tracking-wider text-blue-700 hover:text-blue-800" dir="ltr">
+                    0912 801 6560
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- فوتر -->
+    <footer class="bg-gray-900 text-gray-400 py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; ۱۴۰۳ - تمامی حقوق این وب‌سایت برای استاد محمد جلالی محفوظ است.</p>
+            <!-- می‌توانی اینجا لینک گیت‌هاب خودت را هم بگذاری -->
+        </div>
+    </footer>
+
+</body>
+</html>
